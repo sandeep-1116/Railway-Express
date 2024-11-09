@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+<section id="contact" class="contact">
+    <h2>BOOK NOW</h2>
+    <form action="submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+        <label for="phone-no">Phone no:</label>
+        <input type="phone-no" id="phone-no" name="phone-no" placeholder="+91-0000000000" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="abc@gmail.com" required>
+        <label for="country">Station Name:</label>
+        <input type="country" id="country" name="country" placeholder="Which station do you want to travel" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Any extra help required ??" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+<script src="book.js"></script>
+<script type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+emailjs.init('P3s8JUKhcSgU8QjSu')
+</script>
+</body>
+</html>

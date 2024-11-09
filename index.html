@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railway Express</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="book.html">
+</head>
+<body>
+
+<!-- Navbar -->
+<header class="navbar">
+    <div class="logo" 
+    style="display: grid;
+         grid-template-columns: repeat(2, 1fr);">
+        <img class="item1"  src="asset/train.jpg" alt="hirgyiu">
+        <p class="item2">Railway Express</p>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#intro">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#business-hours">Business-Hours</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Intro Section -->
+<section id="intro" class="intro">
+    <div class="intro-content">
+        <center><img src="asset/train.jpg" alt=""></center>
+        <h1>Welcome to Our Business</h1>
+        <p>Enabling the Safe, Reliable, and Efficient Movement of People and Goods</p>
+        <a href="#services" class="btn">Explore Our Services</a>
+    </div>
+</section>
+
+<!-- Services Section with Scroll -->
+<section id="services" class="services">
+    <h2>OUR SERVICES</h2>
+    <div class="services-scroll">
+        <div class="service-item">
+            <img src="asset/bhubneswer.webp" alt="Service 1">
+            <h3>BHUBNESWER</h3>
+            <a href="book.html">Book Now</a>
+        </div>
+        <div class="service-item">
+            <img src="asset/delhi.JPG" alt="Service 2">
+            <h3>DELHI</h3>
+            <a href="book.html">Book Now</a>
+        </div>
+        <div class="service-item">
+            <img src="asset/Bengaluru.jpg" alt="Service 3">
+            <h3>BENGALURU</h3>
+            <a href="book.html">Book Now</a>
+        </div>
+        <div class="service-item">
+            <img src="asset/luckonw.jpg" alt="Service 1">
+            <h3>LUCKNOW</h3>
+            <a href="book.html">Book Now</a>
+        </div>
+        <div class="service-item">
+            <img src="asset/sikkim.jpeg" alt="Service 1">
+            <h3>SIKKIM</h3>
+            <a href="book.html">Book Now</a>
+        </div>
+        <div class="service-item">
+            <img src="asset/kolkata.jpg" alt="Service 1">
+            <h3>KOLKATA</h3>
+            <a href="book.html">Book Now</a>
+        </div>
+        <div class="service-item">
+            <img src="asset/bhopal.jpg" alt="Service 1">
+            <h3>BHOPAL</h3>
+            <a href="book.html">Book Now</a>
+            </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="testimonials">
+    <h2>WHAT OUR CLIENTS SAY</h2>
+    <div class="testimonial-container">
+        <div class="testimonial-item">
+            <img src="asset/business man 1.jpg" alt="Customer A">
+            <p>"The Indian Railway has a large capacity and is free from traffic jams."</p>
+            <span>- Customer A</span>
+        </div>
+        <div class="testimonial-item">
+            <img src="asset/business man 2.jpg" alt="Customer B">
+            <p>"The Indian Railway has a high safety level."</p>
+            <span>- Customer B</span>
+        </div>
+        <div class="testimonial-item">
+            <img src="asset/business man 3.jpg" alt="Customer B">
+            <p>" The Indian Railway has a complaints and suggestions application that's available on the web, mobile, and SMS. "</p>
+            <span>- Customer C</span>
+        </div>
+        <div class="testimonial-item">
+            <img src="asset/business man 4.jpg" alt="Customer B">
+            <p>" The Indian Railway weaves through varied landscapes, offering a glimpse into India's rich cultural mosaic."</p>
+            <span>- Customer D</span>
+        </div>
+    </div>
+</section>
+<section id="business-hours" class="business-hours">
+    <div class="container">
+      <h2>OUR BUSINESS HOURS</h2>
+      <p>We are here to help you plan your next adventure! Feel free to contact us during our office hours.</p>
+      
+      <div class="hours-table">
+        <table>
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th style="text-align: right;">Hours</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Monday</td>
+              <td>9:00 AM - 6:00 PM</td>
+            </tr>
+            <tr>
+              <td>Tuesday</td>
+              <td>9:00 AM - 6:00 PM</td>
+            </tr>
+            <tr>
+              <td>Wednesday</td>
+              <td>9:00 AM - 6:00 PM</td>
+            </tr>
+            <tr>
+              <td>Thursday</td>
+              <td>9:00 AM - 6:00 PM</td>
+            </tr>
+            <tr>
+              <td>Friday</td>
+              <td>9:00 AM - 6:00 PM</td>
+            </tr>
+            <tr>
+              <td>Saturday</td>
+              <td>10:00 AM - 4:00 PM</td>
+            </tr>
+            <tr>
+              <td>Sunday</td>
+              <td>Closed</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  
+        <section id="contact" class="contact">
+          <h2>BOOK NOW</h2>
+          <form action="submit" method="post">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required>
+              <label for="phone-no">Phone no:</label>
+              <input type="phone-no" id="phone-no" name="phone-no" placeholder="+91-0000000000" required>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="abc@gmail.com" required>
+              <label for="country">Station Name:</label>
+              <input type="country" id="country" name="country" placeholder="Which station do you want to travel" required>
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" placeholder="Any extra help required ??" required></textarea>
+              <button type="submit">Send Message</button>
+          </form>
+        </section>
+      <script src="book.js"></script>
+      <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('P3s8JUKhcSgU8QjSu')
+</script>
+<section id="contact" class="contact-section">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <p>We'd love to hear from you! Reach out with any questions, feedback, or inquiries.</p>
+      </div>
+    <div class="contact-details">
+      <div class="address">
+        <center><h3>Our Office</h3></center>
+        <p>123 Business St, Suite 456</p>
+        <p>Bhubaneswar, Odisha 751009</p>
+        <p>Email: <a href="mailto:contact@railway.com">contact@railway.com</a></p>
+        <p>Phone: <a href="tel:+814474225">+1 814-474-225</a></p>
+      </div>
+      </div>
+      </section>
+
+<!-- Footer Section -->
+<footer>
+  <div class="footer-content">
+      <h3>Sandeep Rana</h3>
+      <p>Follow me on social media or contact me for collaborations!</p>
+      <ul class="socials">
+          <li><a href="https://www.instagram.com/railway_express_"> <img src="asset/instagram.jpg" alt=""></a></li>
+          <li><a href="https://whatsapp.com/channel/0029VavoBSPHQbS5pXMeiv2t"><img src="asset/whatsapp.jpg"alt=""></a></li>
+          <li><a href="https://x.com/sandeeprana9832?t=NvTzDOA3d5qA-JIraYC_tg&s=09"><img src="asset/twitter.avif" alt=""></a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=100091893378769&mibextid=ZbWKwL"><img src="asset/facebook.jpg" alt=""></a></li>
+      </ul>
+  </div>
+  <div class="footer-bottom">
+      <p>&copy; 2024 Sandeep Rana. All Rights Reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
